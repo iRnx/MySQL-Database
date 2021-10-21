@@ -7,9 +7,8 @@ mydb = mysql.connector.connect(
     passwd='sua senha'
 )
 
-# Cria a Query, executa e salva registros no Banco de Dados
 cursor = mydb.cursor()
-cursor.execute('CREATE DATABASE python')
+cursor.execute('CREATE DATABASE python') # Cria o Banco de dados #
 
 #  Para instalar o mysql connector: pip install mysql-connector-python #
 
