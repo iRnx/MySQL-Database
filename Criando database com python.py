@@ -2,7 +2,6 @@ import mysql.connector
 
 # Conecta ao Banco de dados
 mydb = mysql.connector.connect(
-    db='pmysql',
     host='localhost',
     user='root',  # root ou o usuário que você deseja logar #
     passwd='sua senha'
